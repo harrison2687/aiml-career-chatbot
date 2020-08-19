@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I'm sorry, I did not understand your response--I work best with unambiguous answers like "yes" or "no."<br/>
+    Let's try again!  You can start a conversation with me with a simple greeting.  Try typing "Hi!" or "Hello!".<br/>
+    </template>
+  </category>
+</aiml>

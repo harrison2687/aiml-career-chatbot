@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>MY NAME IS *</pattern>
+	    <template>Hello <star/>, nice to chat with you!  My purpose here is to share some useful information about careers related to IT and Computer Science,
+	    and to give you some direction if you aren't sure what would suit you the best.
+	    <br></br>
+	    So let's get started, <star/>!<br/>
+	    If you are interested in learning about some career trajectories, type "get started".
+	    <think><set name="student name"><star/></set></think>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>I AM *</pattern>
+	    <template><srai>MY NAME IS <star/></srai></template>
+	</category>
+	
+	<category>
+	    <pattern>*</pattern>
+	    <that>PLEASE TYPE IN YOUR NAME</that>
+	    <template><srai>MY NAME IS <star/></srai></template>
+	</category>
+	
+	<category>
+	    <pattern>PLEASE CALL ME *</pattern>
+	    <template><srai>MY NAME IS <star/></srai></template>
+	</category>
+	
+	<category>
+	    <pattern>CALL ME *</pattern>
+	    <template><srai>MY NAME IS <star/></srai></template>
+	</category>
+	
+</aiml>

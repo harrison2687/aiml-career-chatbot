@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>computer scientist</pattern>
+	    <template>Computer and information research scientists invent and design new approaches to computing technology and find innovative uses for existing technology.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Computer and Information Research Scientists</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>network architect</pattern>
+	    <template>Computer network architects design and build data communication networks, including local area networks (LANs), wide area networks (WANs), and Intranets.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Network Architects</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>programmer</pattern>
+	    <template>Computer programmers write and test code that allows computer applications and software programs to function properly.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Computer Programmers</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>support specialists</pattern>
+	    <template>Computer support specialists provide help and advice to computer users and organizations.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Computer Support Specialists</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>systems analyst</pattern>
+	    <template>Computer systems analysts study an organization’s current computer systems and find a solution that is more efficient and effective.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Computer Systems Analysts</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-systems-analysts.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>db admin</pattern>
+	    <template>Database administrators (DBAs) use specialized software to store and organize data.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Database Administrators</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>infosec admin</pattern>
+	    <template>Information security analysts plan and carry out security measures to protect an organization’s computer networks and systems.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Information Security Analysts</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>sysadmin</pattern>
+	    <template>Network and computer systems administrators are responsible for the day-to-day operation of computer networks.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Network and Computer Systems Administrators</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>software developer</pattern>
+	    <template>Software developers create the applications or systems that run on a computer or another device.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Software Developers</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>web developer</pattern>
+	    <template>Web developers design and create websites.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Web Developers</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>network architect question</pattern>
+	    <template>You might consider looking into a Network Architect role.
+	    <br></br><br></br>
+	    Computer network architects design and build data communication networks, including local area networks (LANs), wide area networks (WANs), and Intranets.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Network Architects</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>   
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>sysadmin question</pattern>
+	    <template>You might consider looking into a Network and Computer Systems Administrator role.
+	    <br></br><br></br>
+	    Network and computer systems administrators are responsible for the day-to-day operation of computer networks.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Network and Computer Systems Administrators</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>programmer question</pattern>
+	    <template>Neat, thanks for specifying!  A career in computer programming might suit you.
+	    <br></br><br></br>
+	    Computer programmers write and test code that allows computer applications and software programs to function properly.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Computer Programmers</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>software developer question</pattern>
+	    <template>Thanks for specifying!  You might be interested in a career in software development.
+	    <br></br><br></br>
+	    Software developers create the applications or systems that run on a computer or another device.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Software Developers</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>web developer question</pattern>
+	    <template>Great!  I think you might be interested in a career in web development.
+	    <br></br><br></br>
+	    Web developers design and create websites.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Web Developers</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+
+</aiml>

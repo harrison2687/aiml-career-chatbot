@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>GET STARTED</pattern>
+	    <template>Awesome, let's do it.  The Computer Science/IT industry has a variety of occupations, and it can be difficult to choose a specific one.  
+	    I have gathered the top 10 careers in this industry via the U.S. Bureau of Labor Statistics, so we can explore these options together. 
+	    <br></br><br></br>
+	    Please select from the options below:<br/>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>top careers</pattern>
+	    <template>Here are the top 10 Computer Science/IT careers that you can look into
+	    <button>
+	        <text>Computer and Information Research Scientist</text>
+	        <postback>computer scientist</postback>
+	    </button>
+	    <button>
+	        <text>Computer Network Architect</text>
+	        <postback>network architect</postback>
+	    </button>
+	    <button>
+	        <text>Computer Programmer</text>
+	        <postback>programmer</postback>
+	    </button>
+	    <button>
+	        <text>Computer Support Specialist</text>
+	        <postback>support specialist</postback>
+	    </button>
+	    <button>
+	        <text>Computer Systems Analyst</text>
+	        <postback>systems analyst</postback>
+	    </button>
+	    <button>
+	        <text>Database Administrator</text>
+	        <postback>db admin</postback>
+	    </button>
+	    <button>
+	        <text>Information Security Analyst</text>
+	        <postback>infosec admin</postback>
+	    </button>
+	    <button>
+	        <text>Network and Computer Systems Administrator</text>
+	        <postback>sysadmin</postback>
+	    </button>
+	    <button>
+	        <text>Software Developer</text>
+	        <postback>software developer</postback>
+	    </button>
+	    <button>
+	        <text>Web Developer</text>
+	        <postback>web developer</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>decide career</pattern>
+	    <template>Let's get started, <get name = "student name"></get>.  I'm now going to ask you a few questions.<br/>
+	    Please respond with a yes or no, unless there's a prompt indicating otherwise.
+	    <br></br><br></br>
+	    Are you interested in computer networking?
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>YES</pattern>
+	    <that>ARE YOU INTERESTED IN COMPUTER NETWORKING</that>
+	    <template>Okay, good to know.  Do you prefer designing or maintaining a network?
+	    <br></br>
+	    <button>
+	        <text>Designing a Network</text>
+	        <postback>network architect question</postback>
+	    </button>
+	    <button>
+	        <text>Maintaining a Network</text>
+	        <postback>sysadmin question</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NO</pattern>
+	    <that>ARE YOU INTERESTED IN COMPUTER NETWORKING</that>
+	    <template>Not a problem, we can look at something else.  Are you interested in cybersecurity?
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>YES</pattern>
+	    <that>ARE YOU INTERESTED IN CYBERSECURITY</that>
+	    <template>You might consider looking into an Information Security Analyst career.
+	    <br></br><br></br>
+	    Information security analysts plan and carry out security measures to protect an organization’s computer networks and systems.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Information Security Analysts</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NO</pattern>
+	    <that>ARE YOU INTERESTED IN CYBERSECURITY</that>
+	    <template>Do you like reading or writing code?</template>
+	</category>
+	
+	<category>
+	    <pattern>YES</pattern>
+	    <that>DO YOU LIKE READING OR WRITING CODE</that>
+	    <template>Okay, great!  There's a lot of coding-related careers out there, so I would like to help narrow this down, <get name = "student name"></get>.
+	    Do you prefer coding software applications, programming directly on a hardware level, or maybe developing web applications?  Click on whichever option piques your interest.
+	    <br></br>
+	    <button>
+	        <text>Software application coding</text>
+	        <postback>software developer question</postback>
+	    </button>
+	    <button>
+	        <text>Programming at the hardware level</text>
+	        <postback>programmer question</postback>
+	    </button>
+	    <button>
+	        <text>Web development</text>
+	        <postback>web developer question</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NO</pattern>
+	    <that>DO YOU LIKE READING OR WRITING CODE</that>
+	    <template>No problem, we can move on to the next question.  Are you interested in database design and maintenance?</template>
+	</category>
+	
+	<category>
+	    <pattern>YES</pattern>
+	    <that>ARE YOU INTERESTED IN DATABASE DESIGN AND MAINTENANCE</that>
+	    <template>You might be interested in looking into a career as a database administrator.
+	    <br></br><br></br>
+	    Database administrators (DBAs) use specialized software to store and organize data.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Database Administrators</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NO</pattern>
+	    <that>ARE YOU INTERESTED IN DATABASE DESIGN AND MAINTENANCE</that>
+	    <template>Alright.  Are you interested in designing solutions to help IT organizations operate more efficiently?</template>
+	</category>
+	
+	<category>
+	    <pattern>YES</pattern>
+	    <that>ARE YOU INTERESTED IN DESIGNING SOLUTIONS TO HELP IT ORGANIZATIONS OPERATE MORE EFFICIENTLY</that>
+	    <template>I would suggest looking into a career as a computer systems analyst.
+	    <br></br><br></br>
+	    Computer systems analysts study an organization’s current computer systems and find a solution that is more efficient and effective.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Computer Systems Analysts</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-systems-analysts.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NO</pattern>
+	    <that>ARE YOU INTERESTED IN DESIGNING SOLUTIONS TO HELP IT ORGANIZATIONS OPERATE MORE EFFICIENTLY</that>
+	    <template>Perhaps you would be more interested in an all-around role within IT, or maybe pursuing a graduate degree to specialize in computer science before a career.
+	    <br></br><br></br>
+	    Are you planning on entering a graduate program?</template>
+	</category>
+	
+	<category>
+	    <pattern>YES</pattern>
+	    <that>ARE YOU PLANNING ON ENTERING A GRADUATE PROGRAM</that>
+	    <template>You might consider looking into a Computer Scientist role after completing a Masters Degree.
+	    <br></br><br></br>
+	    Computer and information research scientists invent and design new approaches to computing technology and find innovative uses for existing technology.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Computer and Information Research Scientists</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NO</pattern>
+	    <that>ARE YOU PLANNING ON ENTERING A GRADUATE PROGRAM</that>
+	    <template>No worries.  If you want to just get started in a career in IT, you might consider a computer support specialist position.
+	    <br></br><br></br>
+	    Computer support specialists provide help and advice to computer users and organizations.
+	    <br></br><br></br>
+	    <link>
+	        <text>Click here to learn more about Computer Support Specialists</text>
+	        <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm</url>
+	    </link>
+	    <button>
+	        <text>Learn about top 10 careers</text>
+	        <postback>top careers</postback>
+	    </button>
+	    <button>
+	        <text>Help me decide on a career</text>
+	        <postback>decide career</postback>
+	    </button>
+	    </template>
+	</category>
+
+</aiml>
