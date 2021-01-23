@@ -7,7 +7,7 @@ Repo containing files for a career-advising chatbot utilizing AIML, created usin
 
 Instructions on how to run the chatbot are detailed below:
 
-1. Navigate to the [PandoraBots website](www.pandorabots.com)
+1. Navigate to the [PandoraBots website](https://www.pandorabots.com)
 2. Log in to the website and go the dashboard.  On the left-hand side click the plus icon next to "My Bots" to provision a new bot.
 3. Give your new bot a name, select the preferred language of the bot, and ensure that "Blank Bot" is selected in the Content field before clicking "Create Bot."
 4. Select the hnew bot and click on "Edit" below the bot's name--this will bring up several options for editing.  Select "Code Editor" to bring up the editor.
